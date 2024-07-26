@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/headerbox/Header";
 import { CORE_CONCEPTS } from "./data";
 import InputJobAd from "./components/TextBox/InputJobAd";
 import { useState } from "react";
