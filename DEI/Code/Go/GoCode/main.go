@@ -37,6 +37,11 @@ func main() {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
+		if len(results)==0{
+
+			c.JSON(http.StatusOK, gin.H{"results": "You dont have any flagged words"})
+			return
+		}
 
 		c.JSON(http.StatusOK, gin.H{"results": results})
 	})

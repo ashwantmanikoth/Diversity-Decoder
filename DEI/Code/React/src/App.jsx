@@ -42,7 +42,7 @@ function App() {
     <div>
       <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <h2>Paste your Job Ad and see If it suits you!</h2>
         <InputJobAd onSubmit={handleTextSubmit} />
         <DisplayOutputBox data={backendData}/>
 

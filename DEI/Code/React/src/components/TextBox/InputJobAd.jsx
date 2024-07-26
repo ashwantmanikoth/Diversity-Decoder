@@ -6,7 +6,6 @@ const InputJobAd = ({ onSubmit }) => {
 
     const handleChange = (e) => {
         setInputText(e.target.value);
-
     };
 
     const handleClick = (e) => {
@@ -16,7 +15,6 @@ const InputJobAd = ({ onSubmit }) => {
 
     return (
         <div className="input-box">
-          
                 <input
                     type="text"
                     value={inputText}
