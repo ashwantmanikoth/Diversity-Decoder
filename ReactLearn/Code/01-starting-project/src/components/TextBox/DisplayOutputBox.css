@@ -1,0 +1,26 @@
+.display-box {
+  margin: 20px;
+}
+
+.display-box textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.display-box {
+  margin: 20px;
+}
+
+.display-box p {
+  font-size: 16px;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+}
